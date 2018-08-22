@@ -53,6 +53,7 @@ pub fn run (config: Config) -> Result<(), Box<dyn Error>> {
     if config.full_html_document {
         println!("<html>");
         println!("<head>");
+        println!("  <meta charset=\"utf-8\"/>");
         println!("  <title>{}</title>", config.title);
         println!("</head>");
         println!("<body>");
