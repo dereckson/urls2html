@@ -61,7 +61,7 @@ pub fn run (config: Config) -> Result<(), Box<dyn Error>> {
 
     println!("  <ul>");
     for (id, link) in links {
-        println!("      <a href=\"{}\">{} - {}</a>", link.url, id, link.title);
+        println!("      <li><a href=\"{}\">{} - {}</a></li>", link.url, id, link.title);
     }
     println!("  </ul>");
 
