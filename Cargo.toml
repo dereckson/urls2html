@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Sébastien Santoro <dereckson@espace-win.org>"]
 
 [dependencies]
+argparse = "^0.2.1"

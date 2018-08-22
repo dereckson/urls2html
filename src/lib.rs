@@ -13,6 +13,16 @@ pub struct Config {
     pub full_html_document: bool,
 }
 
+impl Config {
+    pub fn new() -> Self {
+        Config {
+            filename: String::new(),
+            title: String::new(),
+            full_html_document: true,
+        }
+    }
+}
+
 pub struct Link {
     pub id: String,
     pub url: String,
